@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gurmat-auth-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gurmat_auth
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+security:
+  jwt:
+    # IMPORTANT: use a long secret in real deployments (at least 32+ chars).
+    secret: "11111111111111111111111111111111"
+    issuer: "gurmat-digital"
+    access-token-minutes: 60
