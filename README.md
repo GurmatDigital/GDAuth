@@ -1,5 +1,5 @@
 
-# Gurmat Digital Ecosystem Security Layer 
+# Gurmat Digital - Authentication & Identity Service
 
 The Gurmat Digital Auth application is the foundational security layer for the Gurmat Digital ecosystem. It is designed to provide a secure, centralized, and intuitive entry point for users—ranging from students and scholars to casual learners—seeking to engage with digital Gurbani resources and Gurmat literature.
 
